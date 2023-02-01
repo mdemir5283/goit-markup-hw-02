@@ -31,12 +31,22 @@ h1 {
 .btn-service11:hover,
 :focus {
   color: var(--accent-blue);
-  text-color: var(--primary-light-color);
 }
-.btn-service:hover,
+.btn-service,
+.btn-for-all:hover,
 :focus {
   color: var(--accent-blue);
   text-color: var(--primary-light-color);
+}
+
+.btn-for-all {
+  background: var(--accent-blue);
+  border: none;
+  font-family: "Roboto";
+  color: var(--primary-light-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
 }
 
 .btn-service {
@@ -61,8 +71,8 @@ h1 {
   line-height: calc(26 / 16);
   border: none;
   cursor: pointer;
-  background: var(--accent-blue);
-  color: var(--primary-light-color);
+  background: var(--primary-backround-color);
+  color: var(--primary-text-color);
 }
 
 .navbar-navlink {
@@ -146,6 +156,7 @@ h2 {
   color: var(--primary-light-color);
   line-height: calc(19 / 16);
   font-size: 14px;
+  font-family: "roboto";
 }
 
 ul li {
@@ -165,6 +176,8 @@ a {
   color: var(--primary-light-color);
   line-height: calc(24 / 14);
   font-size: 14px;
+  font-style: normal;
+  font-family: "roboto";
 }
 
 .apps {
@@ -177,4 +190,12 @@ a {
   font-size: 16px;
   color: var(--secondary-text-color);
   line-height: calc(30 / 16);
+}
+.bottom-footer {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Roboto";
 }
