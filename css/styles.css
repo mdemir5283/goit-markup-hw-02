@@ -28,11 +28,20 @@ h1 {
   line-height: calc(60 / 44);
   font-size: 44px;
 }
+.btn-service11:hover,
+:focus {
+  color: var(--accent-blue);
+  text-color: var(--primary-light-color);
+}
+.btn-service:hover,
+:focus {
+  color: var(--accent-blue);
+  text-color: var(--primary-light-color);
+}
 
 .btn-service {
-  left: 0px;
   background: var(--accent-blue);
-
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -44,25 +53,16 @@ h1 {
   color: var(--primary-light-color);
   cursor: pointer;
 }
-.active-button {
-  background: var(--accent-blue);
-  color: var(--primary-light-color);
-  border: none;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-}
 .btn-service11 {
   font-weight: 500;
   font-size: 16px;
-  text-align: left;
-  height: 38px;
-  left: 495px;
-  top: 174px;
-  background: var(--primary-backround-color);
+  font-family: "Roboto";
+  line-height: calc(26 / 16);
   border: none;
   cursor: pointer;
+  background: var(--accent-blue);
+  color: var(--primary-light-color);
 }
 
 .navbar-navlink {
@@ -107,10 +107,11 @@ h2 {
   text-align: center;
   font-weight: 700;
   line-height: calc(42 / 36);
+  font-size: 36px;
 }
-h3 {
+.features {
   list-style: none;
-
+  font-size: 14px;
   font-weight: 700;
   color: var(--primary-text-color);
   line-height: calc(16 / 14);
@@ -122,15 +123,18 @@ h3 {
 }
 .sub-heading {
   text-align: center;
-  list-style: none;
+  font-weight: 500;
   color: var(--primary-text-color);
   line-height: calc(19 / 16);
+  font-size: 16px;
 }
 .ourteam-text {
   text-align: center;
-  list-style: none;
+
   color: var(--secondary-text-color);
   line-height: calc(19 / 16);
+  font-size: 16px;
+  font-weight: 400;
 }
 .ourteam {
   list-style: none;
@@ -141,6 +145,7 @@ h3 {
   font-weight: 400;
   color: var(--primary-light-color);
   line-height: calc(19 / 16);
+  font-size: 14px;
 }
 
 ul li {
@@ -159,7 +164,7 @@ a {
   font-weight: 400;
   color: var(--primary-light-color);
   line-height: calc(24 / 14);
-  font-style: normal;
+  font-size: 14px;
 }
 
 .apps {
