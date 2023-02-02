@@ -184,6 +184,7 @@ a {
   font-weight: 700;
   color: var(--primary-text-color);
   line-height: calc(36 / 18);
+  font-size: 18px;
 }
 .apps1 {
   font-weight: 400;
@@ -193,9 +194,26 @@ a {
 }
 .bottom-footer {
   font-weight: 400;
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   line-height: calc(24 / 14);
   font-size: 14px;
   font-style: normal;
   font-family: "Roboto";
+}
+.my-button {
+  background-color: var(--primary-backround-color);
+  color: var(--primary-text-color);
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+}
+.my-button:hover,
+.my-button:focus {
+  background-color: var(--accent-blue);
+  color: var(--primary-light-color);
 }
